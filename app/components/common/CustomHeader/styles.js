@@ -1,11 +1,13 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet , Dimensions} from 'react-native';
 import { COLORS, FONTS } from '../../../assets/style';
+
+const screenWidth = Dimensions.get('window').width
 
 const styles = StyleSheet.create({
     containerStyle: {
         height: 60,
-        width: 400,
-        backgroundColor: COLORS.BLACK,
+        width: screenWidth,
+        backgroundColor: COLORS.BACKGROUND,
         alignItems: 'center',
         flexDirection: 'row',
         justifyContent: 'center',
