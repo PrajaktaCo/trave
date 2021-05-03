@@ -1,10 +1,9 @@
 import * as React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
-import EntypoIcon from 'react-native-vector-icons/Entypo';
 
 import { COLORS } from '../assets/style';
 import { Home, FlightList, Info } from '../screens';
+import { SimpleLineIcons, EntypoIcon } from '../assets/icons'
 
 const Tab = createBottomTabNavigator();
 

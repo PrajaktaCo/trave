@@ -1,7 +1,7 @@
 import Card from './Card';
-import Header from './Header'
+import Section from './Section';
 
 export {
     Card,
-    Header
+    Section
 }
