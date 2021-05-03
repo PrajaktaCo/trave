@@ -1,12 +1,13 @@
 import * as React from 'react';
 import { Text, View, ImageBackground } from 'react-native';
-import { Card, Header } from '../../components';
+import { Card } from '../../components';
+import { Container, CustomHeader } from '../../components/common';
 import styles from './styles'
 
 const Home = () => {
     return (
-        <View style={styles.containerStyle}>
-            <Header
+        <Container>
+            <CustomHeader
                 title={'Travel'}
             />
             <ImageBackground
@@ -14,7 +15,7 @@ const Home = () => {
                 style={styles.backgroundImg}
             >
             </ImageBackground>
-        </View>
+        </Container>
     );
 }
 
