@@ -1,13 +1,16 @@
 import React from 'react';
-import { ScrollView, View } from 'react-native';
+import { TouchableOpacity, Text } from 'react-native';
 import styles from './styles';
 
-const CustomButton = ({ children, style }) => {
+const CustomButton = ({ label, onPress, style, labelStyle }) => {
     return (
-        <View style={[styles.wrapper, style]} >
-            {children}
-        </View>
-  )
+        <TouchableOpacity
+            style={[styles.wrapper, style]}
+            onPress={onPress}
+        >
+            <Text style={[styles.labelStyle, labelStyle]}>{label}</Text>
+        </TouchableOpacity>
+    )
 }
 
 export default CustomButton;
