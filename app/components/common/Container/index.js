@@ -2,12 +2,10 @@ import React from 'react';
 import { ScrollView, View } from 'react-native';
 import styles from './styles';
 
-const Container = ({children, style}) => {
-    return(
+const Container = ({ children, style }) => {
+    return (
         <ScrollView>
-            <View style={[styles.wrapper, style]} >
-                {children}
-            </View>
+            {children}
         </ScrollView>
     )
 }
