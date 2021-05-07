@@ -4,7 +4,7 @@ import styles from './styles';
 
 const Container = ({ children, style }) => {
     return (
-        <ScrollView>
+        <ScrollView style={style}>
             {children}
         </ScrollView>
     )
