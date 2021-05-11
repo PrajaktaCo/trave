@@ -6,13 +6,14 @@ import { Ionicons, MaterialCommunityIcons, FontAwesome5Icon, Fontisto } from '..
 
 import { Section } from '../../components';
 import { SelectTraveler, Traveler } from './Travelers';
-import { Date } from './Date';
+import { Date, SelectDate } from './Date';
 
 import styles from './styles'
 import { COLORS } from '../../assets/style';
 
 const Info = () => {
     const [isTravelerModel, setTravelerModel] = useState(false);
+    const [isDateModel, setDateModel] = useState(false);
     const [adultCount, setAdultCount] = useState(0);
     const [childrenCount, setChildrenCount] = useState(0);
     const [infantCount, setInfantCount] = useState(0);
@@ -21,7 +22,15 @@ const Info = () => {
         <Container
             style={{ backgroundColor: 'black' }}
         >
-            <CustomHeader />
+            <CustomHeader
+                leftComponent={
+                    <Ionicons name={'menu'} color={COLORS.WHITE} size={24} />
+                }
+                title={'Travel'}
+                rightComponent={
+                    <Ionicons name={'md-person'} color={COLORS.WHITE} size={24} />
+                }
+            />
             <View style={styles.sectionContainer}>
                 <Section
                     label={"Flight"}
@@ -86,7 +95,7 @@ const Info = () => {
                     style={styles.swapIcon}
                 />
             </View>
-            <Date />
+            <Date setDateModel={setDateModel} />
             <Traveler setTravelerModel={setTravelerModel} />
             <CustomButton
                 label={'Search Flights'}
@@ -105,6 +114,14 @@ const Info = () => {
                     setInfantCount={setInfantCount}
                 />
             }
+
+            {
+                isDateModel &&
+                <SelectDate
+                    setDateModel={setDateModel}
+                />
+            }
+
         </Container>
     );
 }

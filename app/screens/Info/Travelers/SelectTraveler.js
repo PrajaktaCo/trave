@@ -83,7 +83,7 @@ export default SelectTraveler;
 
 const styles = StyleSheet.create({
     container: {
-        height: '65%',
+        height: '70%',
         backgroundColor: COLORS.BLACK,
         width: '100%',
         borderTopLeftRadius: 15,

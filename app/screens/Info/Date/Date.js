@@ -1,12 +1,17 @@
 import React from 'react';
 import { Text, View, StyleSheet, TouchableOpacity } from 'react-native';
 import { COLORS, FONTS } from '../../../assets/style';
-import { Ionicons, MaterialCommunityIcons, FontAwesome5Icon, Fontisto, EvilIcons } from '../../../assets/icons';
+import { EvilIcons } from '../../../assets/icons';
 
-const Date = () => {
+const Date = ({
+    setDateModel
+}) => {
     return (
         <View style={styles.container}>
-            <TouchableOpacity style={styles.innerContainer}>
+            <TouchableOpacity
+                style={styles.innerContainer}
+                onPress={() => setDateModel(true)}
+            >
                 <EvilIcons
                     name={'calendar'}
                     color={COLORS.WHITE}
@@ -17,7 +22,7 @@ const Date = () => {
                     </Text>
                 </Text>
             </TouchableOpacity>
-            <TouchableOpacity
+            <View
                 style={[styles.innerContainer, { marginRight: '10%' }]}>
                 <EvilIcons
                     name={'calendar'}
@@ -28,7 +33,7 @@ const Date = () => {
                     <Text style={styles.subTitle}>Sunday
                     </Text>
                 </Text>
-            </TouchableOpacity>
+            </View>
         </View>
     )
 }
