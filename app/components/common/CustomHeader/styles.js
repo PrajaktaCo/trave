@@ -10,8 +10,9 @@ const styles = StyleSheet.create({
         backgroundColor: COLORS.BACKGROUND,
         alignItems: 'center',
         flexDirection: 'row',
-        justifyContent: 'center',
-        padding: 10
+        padding: 10,
+        borderBottomWidth:1,
+        borderBottomColor:COLORS.BLACK
     },
     headerContainer: { 
         alignItems: 'center', 
