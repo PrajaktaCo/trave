@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Text, View, TouchableOpacity } from 'react-native';
 
-import { Container, CustomHeader, CustomButton, IconButton } from '../../components/common';
+import { Container, CustomHeader, CustomButton, IconButton } from '../../components';
 import { Ionicons, MaterialCommunityIcons, FontAwesome5Icon, Fontisto } from '../../assets/icons';
 
 import { Section } from '../../components';

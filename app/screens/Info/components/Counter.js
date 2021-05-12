@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native';
 
 import { AntDesignIcon, Ionicons } from '../../../assets/icons';
 import { FONTS, COLORS } from '../../../assets/style';
-import { IconButton } from '../../../components/common';
+import { IconButton } from '../../../components';
 
 const Counter = ({
     label,

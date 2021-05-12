@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native';
 
 import { EvilIcons, MaterialCommunityIcons } from '../../../assets/icons';
 import { FONTS, COLORS } from '../../../assets/style';
-import { Divider, Overlay, CustomButton } from '../../../components/common';
+import { Divider, Overlay, CustomButton } from '../../../components';
 import { Counter, SubHeader } from '../components';
 
 const SelectTraveler = ({

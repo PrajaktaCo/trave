@@ -5,7 +5,7 @@ import Dash from 'react-native-dash';
 import styles from './styles';
 import { COLORS, FONTS } from '../../assets/style';
 
-import { Container, CustomCard, CustomHeader, Divider } from '../../components/common';
+import { Container, CustomCard, CustomHeader, Divider } from '../../components';
 import { Section } from '../../components';
 import { Ionicons, EntypoIcon, AntDesignIcon, MaterialCommunityIcons, Fontisto } from '../../assets/icons';
 

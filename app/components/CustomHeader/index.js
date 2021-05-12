@@ -3,7 +3,7 @@ import { Text, View, StyleSheet } from 'react-native';
 import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
 
 import styles from './styles'
-import { COLORS } from '../../../assets/style';
+import { COLORS } from '../../assets/style';
 
 const CustomHeader = ({
     title,
