@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { Text, View, TouchableOpacity } from 'react-native';
 import { Container, CustomHeader, CustomButton, IconButton, Section } from 'Components';
 import { Ionicons, MaterialCommunityIcons, FontAwesome5Icon, Fontisto } from 'Assets/icons';
-import { SelectTraveler, Traveler } from './Travelers';
-import { Date, SelectDate } from './Date';
+import { Date, SelectDate, SelectTraveler, Traveler } from './components';
 import { COLORS } from 'Assets/style';
 import styles from './styles';
 

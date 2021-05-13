@@ -3,7 +3,8 @@ import { View, Text, StyleSheet } from 'react-native';
 import { EvilIcons, MaterialCommunityIcons } from 'Assets/icons';
 import { FONTS, COLORS } from 'Assets/style';
 import { Divider, Overlay, CustomButton } from 'Components';
-import { Counter, SubHeader } from '../components';
+import Counter from '../Counter';
+import SubHeader from '../SubHeader';
 
 const SelectTraveler = ({
     setTravelerModel,

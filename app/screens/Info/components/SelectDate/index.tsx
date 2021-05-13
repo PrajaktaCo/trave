@@ -4,7 +4,8 @@ import { Calendar } from 'react-native-calendars';
 import { MaterialCommunityIcons } from 'Assets/icons';
 import { FONTS, COLORS } from 'Assets/style';
 import { Divider, Overlay, CustomButton } from 'Components';
-import { SubHeader } from '../components';
+import  SubHeader  from '../SubHeader';
+
 
 const SelectDate = ({
     setDateModel
