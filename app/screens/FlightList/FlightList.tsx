@@ -1,15 +1,11 @@
 import React from 'react';
 import { Text, View, FlatList, TouchableOpacity } from 'react-native';
 import Dash from 'react-native-dash';
-
+import { COLORS } from 'Assets/style';
+import { Container, CustomCard, CustomHeader, Divider, Section } from 'Components';
+import { Ionicons, EntypoIcon, AntDesignIcon, MaterialCommunityIcons, Fontisto } from 'Assets/icons';
+import DATA from 'Constants/DATA.tsx';
 import styles from './styles';
-import { COLORS, FONTS } from '../../assets/style';
-
-import { Container, CustomCard, CustomHeader, Divider } from '../../components';
-import { Section } from '../../components';
-import { Ionicons, EntypoIcon, AntDesignIcon, MaterialCommunityIcons, Fontisto } from '../../assets/icons';
-
-import DATA from '../../constants/DATA';
 
 const FlightList = () => {
     return (

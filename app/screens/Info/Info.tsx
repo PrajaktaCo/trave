@@ -1,14 +1,11 @@
 import React, { useState } from 'react';
 import { Text, View, TouchableOpacity } from 'react-native';
-
-import { Container, CustomHeader, CustomButton, IconButton, Section } from '../../components';
-import { Ionicons, MaterialCommunityIcons, FontAwesome5Icon, Fontisto } from '../../assets/icons';
-
+import { Container, CustomHeader, CustomButton, IconButton, Section } from 'Components';
+import { Ionicons, MaterialCommunityIcons, FontAwesome5Icon, Fontisto } from 'Assets/icons';
 import { SelectTraveler, Traveler } from './Travelers';
 import { Date, SelectDate } from './Date';
-
-import styles from './styles'
-import { COLORS } from '../../assets/style';
+import { COLORS } from 'Assets/style';
+import styles from './styles';
 
 const Info = () => {
     const [isTravelerModel, setTravelerModel] = useState(false);

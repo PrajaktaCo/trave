@@ -1,9 +1,8 @@
 import * as React from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+import { Text, View } from 'react-native';
 import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
-
+import { COLORS } from 'Assets/style';
 import styles from './styles'
-import { COLORS } from '../../assets/style';
 
 const CustomHeader = ({
     title,

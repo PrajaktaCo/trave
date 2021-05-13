@@ -1,9 +1,8 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-
-import { EvilIcons, MaterialCommunityIcons } from '../../../assets/icons';
-import { FONTS, COLORS } from '../../../assets/style';
-import { Divider, Overlay, CustomButton } from '../../../components';
+import { EvilIcons, MaterialCommunityIcons } from 'Assets/icons';
+import { FONTS, COLORS } from 'Assets/style';
+import { Divider, Overlay, CustomButton } from 'Components';
 import { Counter, SubHeader } from '../components';
 
 const SelectTraveler = ({

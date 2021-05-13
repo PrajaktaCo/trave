@@ -1,10 +1,9 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import { Calendar } from 'react-native-calendars';
-
-import { MaterialCommunityIcons } from '../../../assets/icons';
-import { FONTS, COLORS } from '../../../assets/style';
-import { Divider, Overlay, CustomButton } from '../../../components';
+import { MaterialCommunityIcons } from 'Assets/icons';
+import { FONTS, COLORS } from 'Assets/style';
+import { Divider, Overlay, CustomButton } from 'Components';
 import { SubHeader } from '../components';
 
 const SelectDate = ({

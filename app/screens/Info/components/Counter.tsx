@@ -1,9 +1,8 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-
-import { AntDesignIcon, Ionicons } from '../../../assets/icons';
-import { FONTS, COLORS } from '../../../assets/style';
-import { IconButton } from '../../../components';
+import { AntDesignIcon, Ionicons } from 'Assets/icons';
+import { FONTS, COLORS } from 'Assets/style';
+import { IconButton } from 'Components';
 
 const Counter = ({
     label,

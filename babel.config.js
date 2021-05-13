@@ -9,7 +9,7 @@ module.exports = {
         alias: {
           Assets: './app/assets',
           Components: './app/components',
-          Constants: './app/components',
+          Constants: './app/constants',
           Navigation: './app/navigation',
           Screens: './app/screens'
         }

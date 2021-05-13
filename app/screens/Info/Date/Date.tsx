@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View, StyleSheet, TouchableOpacity } from 'react-native';
-import { COLORS, FONTS } from '../../../assets/style';
-import { EvilIcons } from '../../../assets/icons';
+import { COLORS, FONTS } from 'Assets/style';
+import { EvilIcons } from 'Assets/icons';
 
 const Date = ({
     setDateModel

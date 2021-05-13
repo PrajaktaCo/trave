@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
-import { COLORS, FONTS } from '../../../assets/style';
-import { Ionicons, EvilIcons } from '../../../assets/icons';
+import { COLORS, FONTS } from 'Assets/style';
+import { Ionicons, EvilIcons } from 'Assets/icons';
 
 const Traveler = ({
     setTravelerModel
