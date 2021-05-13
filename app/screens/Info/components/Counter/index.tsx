@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { AntDesignIcon, Ionicons } from 'Assets/icons';
-import { FONTS, COLORS } from 'Assets/style';
+import { FONTS, COLORS } from 'Themes/style';
 import { IconButton } from 'Components';
 
 const Counter = ({

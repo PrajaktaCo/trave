@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { EvilIcons, MaterialCommunityIcons } from 'Assets/icons';
-import { FONTS, COLORS } from 'Assets/style';
+import { FONTS, COLORS } from 'Themes/style';
 import { Divider, Overlay, CustomButton } from 'Components';
 import Counter from '../Counter';
 import SubHeader from '../SubHeader';

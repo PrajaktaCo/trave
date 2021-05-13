@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
-import { COLORS, FONTS } from 'Assets/style';
+import { COLORS, FONTS } from 'Themes/style';
 import { Ionicons, EvilIcons } from 'Assets/icons';
 
 const Traveler = ({

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Text, View } from 'react-native';
 import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
-import { COLORS } from 'Assets/style';
+import { COLORS } from 'Themes/style';
 import styles from './styles'
 
 const CustomHeader = ({

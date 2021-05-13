@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { COLORS } from 'Assets/style';
+import { COLORS } from 'Themes/style';
 import { Home, FlightList, Info } from 'Screens';
 import { SimpleLineIcons, EntypoIcon } from 'Assets/icons';
 

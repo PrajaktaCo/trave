@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { FONTS, COLORS } from 'Assets/style';
+import { FONTS, COLORS } from 'Themes/style';
 
 const SubHeader = ({ label, icon }) => {
     return (

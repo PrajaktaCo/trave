@@ -3,7 +3,7 @@ import { Text, View, TouchableOpacity } from 'react-native';
 import { Container, CustomHeader, CustomButton, IconButton, Section } from 'Components';
 import { Ionicons, MaterialCommunityIcons, FontAwesome5Icon, Fontisto } from 'Assets/icons';
 import { Date, SelectDate, SelectTraveler, Traveler } from './components';
-import { COLORS } from 'Assets/style';
+import { COLORS } from 'Themes/style';
 import styles from './styles';
 
 const Info = () => {

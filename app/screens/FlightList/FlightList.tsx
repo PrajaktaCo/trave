@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View, FlatList, TouchableOpacity } from 'react-native';
 import Dash from 'react-native-dash';
-import { COLORS } from 'Assets/style';
+import { COLORS } from 'Themes/style';
 import { Container, CustomCard, CustomHeader, Divider, Section } from 'Components';
 import { Ionicons, EntypoIcon, AntDesignIcon, MaterialCommunityIcons, Fontisto } from 'Assets/icons';
 import DATA from 'Constants/DATA.tsx';

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Text, View, ImageBackground, Image } from 'react-native';
 import { Container, CustomHeader, CustomButton, CustomCard, Section } from 'Components';
 import { Ionicons, MaterialCommunityIcons, FontAwesome5Icon, EvilIcons } from 'Assets/icons';
-import { COLORS } from 'Assets/style';
+import { COLORS } from 'Themes/style';
 import styles from './styles';
 import images from '../../themes/images';
 

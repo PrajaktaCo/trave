@@ -2,7 +2,7 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import { Calendar } from 'react-native-calendars';
 import { MaterialCommunityIcons } from 'Assets/icons';
-import { FONTS, COLORS } from 'Assets/style';
+import { FONTS, COLORS } from 'Themes/style';
 import { Divider, Overlay, CustomButton } from 'Components';
 import  SubHeader  from '../SubHeader';
 
