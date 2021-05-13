@@ -4,6 +4,7 @@ import { Container, CustomHeader, CustomButton, CustomCard, Section } from 'Comp
 import { Ionicons, MaterialCommunityIcons, FontAwesome5Icon, EvilIcons } from 'Assets/icons';
 import { COLORS } from 'Assets/style';
 import styles from './styles';
+import images from '../../themes/images';
 
 const Home = () => {
     return (
@@ -12,7 +13,7 @@ const Home = () => {
                 title={'Travel'}
             />
             <ImageBackground
-                source={require('../../assets/images/travel_background.jpeg')}
+                source={images.BACKGROUND_IMG}
                 style={styles.backgroundImg}
             >
                 <CustomCard style={styles.cardContainer}>
@@ -76,19 +77,19 @@ const Home = () => {
                 </CustomCard>
                 <CustomCard>
                     <Image
-                        source={require('../../assets/images/travel3.jpeg')}
+                        source={images.TRAVEL_1}
                         style={styles.cardImg}
                     />
                 </CustomCard>
                 <CustomCard>
                     <Image
-                        source={require('../../assets/images/travel1.jpeg')}
+                        source={images.TRAVEL_2}
                         style={styles.cardImg}
                     />
                 </CustomCard>
                 <CustomCard>
                     <Image
-                        source={require('../../assets/images/travel2.jpeg')}
+                        source={images.TRAVEL_3}
                         style={styles.cardImg}
                     />
                 </CustomCard>
