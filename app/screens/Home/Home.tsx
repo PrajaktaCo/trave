@@ -9,7 +9,6 @@ import images from '../../themes/images';
 const Home = () => {
     return (
         <Container>
-            {console.log('---->yghg')}
             <CustomHeader
                 title={'Travel'}
             />
